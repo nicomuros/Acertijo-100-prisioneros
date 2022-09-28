@@ -12,3 +12,5 @@ buscarNumero(): Es la funcion en la que cada prisionero entra al cuarto a buscar
 lograronSalir(): Esta funcion contempla la llamada a la función buscarNumero() 100 veces (una por cada prisionero). Si algún prisionero no logró encontrar su número, el ciclo se rompe retornando un false. Caso contrario, si todos los prisioneros encontraron su número, retorna true.
 
 por último itero 100 veces la busqueda de los prisioneros, contando la cantidad de veces que lograron salir y mostrando en la pantalla. Para eso en cada iteración lleno las cajas, y luego en una sentencia if llamo a la funcion lograronSalir(). Siempre que se cumpla la condición (es decir, que lograronSalir() retorne true) sumo 1 al contador. Luego de 100 veces muestro el contador en la consola, sorprendentemente acercandose siempre a 32
+
+Inspirado en el video de Veritasium "El Acertijo Imposible de Resolver" (https://www.youtube.com/watch?v=ksasmB0YPzw)
